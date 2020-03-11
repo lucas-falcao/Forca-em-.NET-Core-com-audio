@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Forca2.exe" version="1.0.0.0" publicKeyToken="5b7667f33634c50a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Forca2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Forca2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Forca2.exe" size="8160">
+      <assemblyIdentity name="Forca2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>toqSzPtDCf+Nq8kXknttlxP/W6c4z4eDr395hl+sj2E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Forca2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-GFH7FV7\lucas" issuerKeyHash="7d740585556bb8845a5fe0bd773f3267385e4bc0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XL2QmgQONDOVM/bGk7SZQg3MwQqyJHZTYbFAl4SU0Xc=</DigestValue></Reference></SignedInfo><SignatureValue>B2XCzTgvjoqGOvuFKMk/P1imZRCC36LefRNIHOjinym6poFH9ldqVxcl4j5tSwFtTcx0zpbobBjfq773e8+J0WoNmArs1VFO35nH349oAy9h/3vtj89i3HJnz5TQsHgDonXdZnRALgPjK8I7a+WAXvr6n9dH5ItYAst5IvPse+M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zOx3y3YxyGpHIQf4U9wDTXaxQZgbBS05/DKY+9YmKU1EcfHzDGOwUiDXsa5kOiNlTplBItY0+3UX5xyLCNZTqEVluzjTcwoQ8qB1b2BzLwBnRL6WktI5pW4rBd94jYkAmO9EasLZH693mOloXKMGwnYRHde5mLq7Wd7DlcABEfE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="77d194849740b161537624b20ac1cc0d4299b493c6f6339533340e049a90bd5c" Description="" Url=""><as:assemblyIdentity name="Forca2.exe" version="1.0.0.0" publicKeyToken="5b7667f33634c50a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GFH7FV7\lucas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+AKNFje04QOiuy9dp6eZfZ9403LSpJr+lmWVhWOXAtQ=</DigestValue></Reference></SignedInfo><SignatureValue>PbVf5LdUgmcQRAbTt+mXT+hR85DFEkPasBbuvWwht0mRb/2Em+xCEXY3393cYEMop3gDnnc9E7FjAEK1WxoZyAdSQixzyT6SFLJjLqhL+zI3nojPnw3WNLgKpRGp26L2q8AbDaaPySyTOxtPglWkYvpRxylfYmOv6bUYdrsUZMg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zOx3y3YxyGpHIQf4U9wDTXaxQZgbBS05/DKY+9YmKU1EcfHzDGOwUiDXsa5kOiNlTplBItY0+3UX5xyLCNZTqEVluzjTcwoQ8qB1b2BzLwBnRL6WktI5pW4rBd94jYkAmO9EasLZH693mOloXKMGwnYRHde5mLq7Wd7DlcABEfE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHig77z7FEZFH4ar/TkQCGTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcARgBIADcARgBWADcAXABsAHUAYwBhAHMwHhcNMjAwMzA4MjIyMTMyWhcNMjEwMzA5MDQyMTMyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcARgBIADcARgBWADcAXABsAHUAYwBhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMzsd8t2MchqRyEH+FPcA012sUGYGwUtOfwymPvWJilNRHHx8wxjsFIg17GuZDojZU6ZQSLWNPt1F+cciwjWU6hFZbs403MKEPKgdW9gcy8AZ0S+lpLSOaVuKwXfeI2JAJjvRGrC2R+vd5jpaFyjBsJ2ER3XuZi6u1new5XAARHxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfTgqZ0bJ39u0Go8Ks4zOrdn7Arilzyb4f6mdZwwzt682sBU42lZ34gui8z3Kv3ISCDXdBmSMcav7BCvPoUQtHASHEJC74gTyVmJOVQload5nRUafplfrv6mk8tqgkxIjDriW/w+yYkdDPRWN9xziu6QFW1C0DWMKP26IegOgikI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

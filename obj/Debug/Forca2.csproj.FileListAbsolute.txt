@@ -1,0 +1,10 @@
+C:\Forca2\Forca2\bin\Debug\Forca2.exe.config
+C:\Forca2\Forca2\bin\Debug\Forca2.exe
+C:\Forca2\Forca2\bin\Debug\Forca2.pdb
+C:\Forca2\Forca2\obj\Debug\Forca2.csprojAssemblyReference.cache
+C:\Forca2\Forca2\obj\Debug\Forca2.exe
+C:\Forca2\Forca2\obj\Debug\Forca2.pdb
+C:\Forca2\Forca2\bin\Debug\Forca2.exe.manifest
+C:\Forca2\Forca2\bin\Debug\Forca2.application
+C:\Forca2\Forca2\obj\Debug\Forca2.exe.manifest
+C:\Forca2\Forca2\obj\Debug\Forca2.application
